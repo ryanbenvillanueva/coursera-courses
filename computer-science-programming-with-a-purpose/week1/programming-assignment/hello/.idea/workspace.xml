@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloWorld">
+  <component name="RunManager" selected="Application.RightTriangle">
     <configuration name="GreatCircle" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="GreatCircle" />
       <module name="Computer Science" />
@@ -60,7 +60,7 @@
     <configuration name="HelloGoodbye" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="HelloGoodbye" />
       <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="Kevin Bob" />
+      <option name="PROGRAM_PARAMETERS" value="Alejandra Bahati" />
       <method v="2" />
     </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application">
@@ -71,7 +71,7 @@
     <configuration name="RightTriangle" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="RightTriangle" />
       <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="13 12 5" />
+      <option name="PROGRAM_PARAMETERS" value="-3 4 -5" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
