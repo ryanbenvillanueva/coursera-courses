@@ -50,11 +50,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RightTriangle">
+  <component name="RunManager" selected="Application.CMYKtoRGB">
+    <configuration name="CMYKtoRGB" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="CMYKtoRGB" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="0.0 1.0 0.0 0.0" />
+      <method v="2" />
+    </configuration>
     <configuration name="GreatCircle" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="GreatCircle" />
       <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="60.0 15.0 120.0 105.0" />
+      <option name="PROGRAM_PARAMETERS" value="40.35 74.65 48.87 -2.33" />
       <method v="2" />
     </configuration>
     <configuration name="HelloGoodbye" type="Application" factoryName="Application">
