@@ -54,7 +54,7 @@
     <configuration name="CMYKtoRGB" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="CMYKtoRGB" />
       <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="0.0 1.0 0.0 0.0" />
+      <option name="PROGRAM_PARAMETERS" value="0.0 1.0 0.75 0.50" />
       <method v="2" />
     </configuration>
     <configuration name="GreatCircle" type="Application" factoryName="Application">

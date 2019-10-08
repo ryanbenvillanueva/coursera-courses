@@ -1,6 +1,6 @@
 /* *****************************************************************************
  *  Name:              Ryan Ben S. Villanueva
- *  Last modified:     7/10/2019
+ *  Last modified:     8/10/2019
  **************************************************************************** */
 
 public class CMYKtoRGB {
@@ -14,9 +14,9 @@ public class CMYKtoRGB {
         double green = 255 * white * (1 - magenta);
         double blue = 255 * white * (1 - yellow);
 
-        System.out.println("red   = " + (int) red);
-        System.out.println("green = " + (int) green);
-        System.out.println("blue  = " + (int) blue);
+        System.out.println("red   = " + Math.round(red));
+        System.out.println("green = " + Math.round(green));
+        System.out.println("blue  = " + Math.round(blue));
 
     }
 }
