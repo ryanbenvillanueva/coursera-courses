@@ -7,32 +7,29 @@
 public class ThueMorse {
     public static void main(String[] args) {
         int n = Integer.parseInt(args[0]);
-        String thue = "0";
-        String morse = "1";
+        int[] seq = new int[n];
+        seq[0] = 0;
 
-        for (int i = 1; i < n; i *= 2) {
-
-            String t = thue;
-            String m = morse;
-
-            thue += m;
-            morse += t;
-        }
-
-        int number = Integer.parseInt(morse);
-        int[] seq = new int[morse.length()];
-
-        int k = 0;
-        while (number != 0 && (k < morse.length())) {
-            int digit = number % 10;
-            seq[k] = digit;
-            number /= 10;
-            k++;
+        for (int i = 1; i < n; i++) {
+            int sum = 0;
+            int decimal = i;
+            while (decimal > 0) {
+                if (decimal % 2 != 0) {
+                    sum++;
+                }
+                decimal /= 2;
+            }
+            if (sum % 2 == 0) {
+                seq[i] = 0;
+            }
+            else {
+                seq[i] = 1;
+            }
         }
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                if (seq[i] != seq[j]) {
+                if (seq[i] != (seq[j])) {
                     System.out.print("-  ");
                 }
                 else {
