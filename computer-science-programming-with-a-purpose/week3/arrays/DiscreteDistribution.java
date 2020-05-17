@@ -27,7 +27,6 @@ public class DiscreteDistribution {
             }
         }
 
-
         for (int i = 1; i <= m; i++) {
             int r = (int) (Math.random() * s[n - 1]);
             int index = 1;
@@ -41,7 +40,6 @@ public class DiscreteDistribution {
         }
     }
 }
-
 
 
 
