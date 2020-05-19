@@ -53,13 +53,17 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
+    <state x="654" y="275" key="#Notifications" timestamp="1589805769066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="654" y="275" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1589805769066" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589717232887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589717232887" />
-    <state x="349" y="147" key="IDE.errors.dialog" timestamp="1589785521419">
+    <state x="349" y="147" key="IDE.errors.dialog" timestamp="1589846229548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="349" y="147" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1589785521419" />
+    <state x="349" y="147" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1589846229548" />
   </component>
 </project>

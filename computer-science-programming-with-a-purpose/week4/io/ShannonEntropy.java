@@ -1,6 +1,6 @@
 /* *****************************************************************************
  *  Name:              Ryan Ben S. Villanueva
- *  Programming Assignment: Week4 - Input and Output
+ *  Programming Assignment: Week 4 - Input and Output
  *  Last modified:     May 18, 2020
  **************************************************************************** */
 
