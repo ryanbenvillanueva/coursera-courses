@@ -1,31 +1,27 @@
 /* *****************************************************************************
  *  Name:              Ryan Ben S. Villanueva
  *  Programming Assignment: Week 4 - Input and Output
- *  Last modified:     May 18, 2020
+ *  Last modified:     May 20, 2020
  **************************************************************************** */
-
 public class WorldMap {
     public static void main(String[] args) {
         int width = StdIn.readInt();
         int height = StdIn.readInt();
-
-        String[] data = StdIn.readAllStrings();
-
-        int index = 0;
-        int start = index + 2;
-        int end = start + Integer.parseInt(data[index + 1]);
-        int xIndex = start;
-        int yIndex = start + 1;
-        // while (index <= data.length) {
-        for (int i = start; i < end; i++) {
-            double x = Double.parseDouble(data[xIndex]);
-            double y = Double.parseDouble(data[yIndex]);
-            xIndex += 2;
-            yIndex += 2;
-            StdOut.println("x: " + x + "\ty: " + y);
+        StdDraw.setCanvasSize(width, height);
+        StdDraw.setXscale(0, width);
+        StdDraw.setYscale(0, height);
+        StdDraw.enableDoubleBuffering();
+        while (!StdIn.isEmpty()) {
+            String region = StdIn.readString();
+            int vertices = StdIn.readInt();
+            double[] x = new double[vertices];
+            double[] y = new double[vertices];
+            for (int i = 0; i < vertices; i++) {
+                x[i] = StdIn.readDouble();
+                y[i] = StdIn.readDouble();
+            }
+            StdDraw.polygon(x, y);
         }
-        StdOut.println(data[end]);
-
-        // }
+        StdDraw.show();
     }
 }
